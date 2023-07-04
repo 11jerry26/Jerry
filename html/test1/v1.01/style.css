@@ -1,0 +1,77 @@
+th{
+    font-weight: bold;
+    background-color: rgb(235,235,235);
+    border: 1px solid rgb(200,200,200);
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 5px;
+}
+td{
+    padding: 6px;
+    text-align: center;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(200,200,200);
+    font-size: 7px;
+}
+p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1px;
+    padding-bottom: 5px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+tr.alt td{
+    background-color: rgb(245,245,245);
+    padding: 6px;
+}
+tr th:nth-last-child(1){
+    width: 10%;
+}
+
+
+/*名字列加黑边框*/
+th.alt{
+    border-left-width: 3px;
+    border-left-color: rgb(0,0,0);
+    border-right-width: 3px;
+    border-right-color: rgb(0,0,0);
+}
+th.alt1{
+    border-top-width: 3px;
+    border-top-color: rgb(0,0,0);
+    border-left-width: 3px;
+    border-left-color: rgb(0,0,0);
+    border-right-width: 3px;
+    border-right-color: rgb(0,0,0);
+}
+th.alt2{
+    border-bottom-width: 3px;
+    border-bottom-color: rgb(0,0,0);
+    border-left-width: 3px;
+    border-left-color: rgb(0,0,0);
+    border-right-width: 3px;
+    border-right-color: rgb(0,0,0);
+}
+
+/*左上角的空白*/
+tr.alt2 td{
+    background-color: rgb(245,245,245);
+}
+
+td:nth-child(1){
+    width:auto;
+}
+td:nth-child(2){
+    width: auto;
+}
+tr.alt td.alt{
+    background-color: rgb(235,235,235);
+    font-weight: bold;
+}
